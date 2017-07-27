@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JeMePresente</title>
+    <title>JeMePresente App</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -11,5 +11,7 @@
 
   <body>
     <%= yield %>
+
+    <%= render "layouts/footer" %>
   </body>
 </html>
